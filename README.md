@@ -61,4 +61,5 @@ console.log(personName); //Lahm
 
     console.log(greet(callBackFn("Bayo")));//when a function call accepts another function as the argument, then you call the argument a call back function;
 
-    
+# EXERCISE: TRY AND IMPLEMENT THE FOLLOWING WITH REACTJS:
+https://www.figma.com/design/8GKMXn7LgVoLXr9fWILrH6/Laundry-service-website-(Community)?node-id=2-1204&t=rY6kgkH9VOAAexU3-0
