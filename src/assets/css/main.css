@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-color: #222;
+    --default: #21B7E2;
+    --secondary: #D0F6FF;
+    --transition: all .3s ease-in-out;
+}
+
+body { 
+    font-family: "Inter", sans-serif;
+}
+
+.logo-box {
+    width: 22.8%;
+}
+
+.logo-box:hover img {
+    opacity: .7;
+}
+
+.logo-box img {
+    width: 100%;
+    transition: var(--transition);
+}
+
+.navbar .items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+ul a:hover {
+    color: var(--default);
+    transform: scale(1.05);
+}
+
+.current {
+    font-weight: bold;
+}
+
+.hero-content {
+    padding-left: 80px;
+}
+
+.hero-content .sub {
+    background-color: var(--secondary);
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.hero-content h1 {
+    font-family: "Raleway", sans-serif;
+    line-height: 1;
+    font-size: 50px;
+}
+
+.hero-content button {
+    margin-bottom: 20px;
+    border: none;
+    background-color: var(--secondary);
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.hero-content button:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, .3);
+}
+
+.hero-content button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.hero-content .about-text {
+    color: var(--default);
+} 
+
+.hero-img {
+    height: 470px;
+}
+
+.hero-images {
+    position: relative;
+}
+
+.bubbles, .bubbles-1 {
+    position: absolute;
+}
+
+.bubbles {
+    top: -70px;
+    right: 50px;
+}
+
+.bubbles-1 {
+    bottom: -110px;
+    left: -50px;
+}
