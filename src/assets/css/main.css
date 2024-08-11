@@ -54,6 +54,10 @@ ul a:hover {
     font-weight: bold;
 }
 
+.hero {
+    height: 600px;
+}
+
 .hero-content {
     padding-left: 80px;
 }
@@ -96,7 +100,7 @@ ul a:hover {
 } 
 
 .hero-img {
-    height: 470px;
+    height: 500px;
 }
 
 .hero-images {
@@ -115,4 +119,33 @@ ul a:hover {
 .bubbles-1 {
     bottom: -110px;
     left: -50px;
+}
+
+.hiw-section {
+    background-color: var(--secondary);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.hiw-section h5 {
+    text-transform: uppercase;
+    color: var(--default);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hiw-section h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.hiw-section .cards-container {
+    width: 90%;
+}
+
+.hiw-section .card {
+    height: 300px;
+    overflow: hidden;
 }

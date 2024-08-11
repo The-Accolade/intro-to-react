@@ -1,11 +1,13 @@
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
+import HowItWorks from '../components/HowItWorks'
 
 function Homepage() {
   return (
     <div>
         <Nav />
         <Hero />
+        <HowItWorks />
     </div>
   )
 }

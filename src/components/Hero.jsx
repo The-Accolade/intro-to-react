@@ -4,7 +4,7 @@ import BubblesOne from '../assets/images/bubbles-1.png';
 
 function Hero() {
   return (
-    <div className='d-flex justify-content-between align-items-center'>
+    <div className='d-flex justify-content-between align-items-center hero'>
         <div className='hero-content w-50'>
             {/*CONtent*/}
             <span className='sub'>20% Discount for 1 Month Subscription</span>
