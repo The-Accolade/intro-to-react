@@ -2,7 +2,7 @@ const services = [
     {
         id: "single",
         type: "regular",
-        iconImage: "/public/service-images/single-size-icon.png",
+        iconImage: "/service-images/single-size-icon.png",
         title: "Single Size",
         introText: "Perfect for people who live alone",
         features: [
@@ -14,7 +14,7 @@ const services = [
     {
         id: "couples",
         type: "recommended",
-        iconImage: "/public/service-images/couples-size-icon.png",
+        iconImage: "/service-images/couples-size-icon.png",
         title: "Couples Size",
         introText: "Perfect for couples size 3-6",
         features: [
@@ -28,7 +28,7 @@ const services = [
     {
         id: "family",
         type: "regular",
-        iconImage: "/public/service-images/family-size-icons.png",
+        iconImage: "/service-images/family-size-icons.png",
         title: "Family Size",
         introText: "Perfect for families size 4-6",
         features: [

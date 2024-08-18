@@ -1,7 +1,7 @@
 import MarkIcon from "@/assets/images/mark.png";
 
 function ServicesCard({ icon, title, intro, features, price, type }) {
-  console.log(icon);
+
   return (
     <div
       className={`services-card d-flex flex-column justify-content-between ${
