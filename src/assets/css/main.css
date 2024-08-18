@@ -129,14 +129,14 @@ ul a:hover {
     padding: 50px;
 }
 
-.hiw-section h5 {
+.hiw-section h5, .services-section h5 {
     text-transform: uppercase;
     color: var(--default);
     font-size: 14px;
     font-weight: 700;
 }
 
-.hiw-section h2 {
+.hiw-section h2, .services-section h2 {
     font-size: 42px;
     font-weight: 700;
 }
@@ -148,4 +148,83 @@ ul a:hover {
 .hiw-section .card {
     height: 300px;
     overflow: hidden;
+}
+
+.services-section {
+    min-height: 500px;
+    text-align: center;
+}
+
+.services-section h5 {
+    margin-top: 50px;
+}
+
+.services-section .services {
+    padding: 100px 0;
+}
+
+.services-section .services-card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.services-card img {
+    height: 46px;
+}
+
+.services-card .heading h4 {
+    color: var(--default);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.services-card .heading p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.services-card h3 {
+    font-size: 22px;
+    color: #A9A9AA;
+}
+
+.services-card .dashed {
+    border-top: 1.5px dashed;
+}
+
+.services-card .price {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.services-card .per-month {
+    font-size: 20px;
+}
+
+.services-card .choose-btn {
+    background-color: var(--secondary);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.services-card .choose-btn:hover {
+    background-color: var(--default);
+    color: #fff;
+}
+
+.services-card.recommended, .services-card:hover {
+    background-color: var(--secondary);
+    transform: translateY(-50px);
+    border: none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+}
+
+.services-card.recommended button, .services-card:hover button {
+    background-color: var(--default);
 }
