@@ -63,3 +63,24 @@ console.log(personName); //Lahm
 
 # EXERCISE: TRY AND IMPLEMENT THE FOLLOWING WITH REACTJS:
 https://www.figma.com/design/8GKMXn7LgVoLXr9fWILrH6/Laundry-service-website-(Community)?node-id=2-1204&t=rY6kgkH9VOAAexU3-0
+
+## WEATHER APP ON /weather route
+Weather apis: 
+    1. https://rapidapi.com/wirefreethought/api/geodb-cities/playground/5978313be4b06b85e4b0da1e
+    2. https://openweather.co.uk/
+
+Dependencies: 
+    1. https://www.npmjs.com/package/react-accessible-accordion
+    2. https://www.npmjs.com/package/react-select-async-paginate - when install this use: npm install react-select react-select-async-paginate -- force (because of compatibility issues, but it will work fine if you do this).
+
+Read about React Router here: https://reactrouter.com
+
+Read about State here: https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-state#:~:text=The%20state%20is%20a%20built,%2C%20the%20component%20re%2Drenders.
+And here: https://www.w3schools.com/react/react_state.asp
+
+# Your state is an immutable (unchangeable, read-only) information about your component(s). Many times, it refers to the default value of your component. The state can change at some point in your app, and you can always revert back to the default. 
+
+# READ ABOUT ASYNC/AWAIT IN JS
+Read here: https://www.w3schools.com/js/js_async.asp
+
+# IF YOU WANT TO BE ABLE TO VIEW DATA GOTTEN FROM AN API ON THE FRONTEND, YOU MUST CONVERT IT FIRST TO JSON (data.json());

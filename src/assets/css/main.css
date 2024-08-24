@@ -228,3 +228,9 @@ ul a:hover {
 .services-card.recommended button, .services-card:hover button {
     background-color: var(--default);
 }
+
+
+/* STYLING FOR WEATHER APP*/
+.weather-container {
+    margin: 100px auto;
+}
