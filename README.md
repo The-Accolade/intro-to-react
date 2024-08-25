@@ -84,3 +84,7 @@ And here: https://www.w3schools.com/react/react_state.asp
 Read here: https://www.w3schools.com/js/js_async.asp
 
 # IF YOU WANT TO BE ABLE TO VIEW DATA GOTTEN FROM AN API ON THE FRONTEND, YOU MUST CONVERT IT FIRST TO JSON (data.json());
+
+# Dummy data refers to fake, placeholder information that does not contain any useful data, but serves to reserve space where real data is nominally present.
+
+# Hardcoded values are basically values that the programmer enters into his code manually to reserve space where real data should be present.

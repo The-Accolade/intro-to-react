@@ -20,13 +20,14 @@ function Search({ onSearchChange }) {
     onSearchChange(searchData);
   };
 
-  const loadOptions = async (inputValue) => { //async/await
+  const loadOptions = async (inputValue) => {
+    //async/await
     try {
       const response = await fetch(
         `${url}?namePrefix=${inputValue}`,
         apiOptions
       );
-      const result = await response.json(); 
+      const result = await response.json();
       if (response.ok) {
         return {
           options: result.data.map((item) => {
